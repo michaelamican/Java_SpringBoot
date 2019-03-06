@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: GettingFamiliar
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: MichaelAA
+Implementation-Vendor-Id: com.CodingDojo.GettingFamiliar
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/GettingFamiliar
+Created-By: Maven Integration for Eclipse
+
