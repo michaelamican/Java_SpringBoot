@@ -1,0 +1,85 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+	background: linear-gradient(dodgerblue,dodgerblue,dodgerblue,royalblue);
+	height: 100%;
+	width: 100%;
+	padding: 20vh 20vw;
+}
+#boxy{
+	background-color: aliceblue;
+	opacity: 0.9;
+	box-shadow: 1px 1px 6px midnightblue;
+	border: 1px solid lightsteelblue;
+	height: 60vh;
+	width: 60vw;
+	padding: 3vh 3vw;
+}
+button{
+	height: 4vh;
+	width: 6vw;
+	padding: 2px 4px;
+	background-color: lightcoral;
+	box-shadow: 1px 1px 3px lightsteelblue;
+	border: 1px solid indianred;
+	text-shadow: 1px 1px 1px indianred;
+	color: azure;
+	opacity: 0.7;
+}
+button:hover{
+	opacity: 1.0;
+}
+.bright{
+	color: white;
+}
+#boxyjava{
+	background-color: dimgray;
+	opacity: 0.7;
+	height: 30vh;
+	width: 30vw;
+	padding: 3vh 3vw;
+	margin: 10vh 10vw;
+}
+#wrapperjava{
+	background-image: url("../img/coffee.jpg");
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: stretch;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+textarea{
+	padding: 6px;
+	height: 10vh;
+	width: 20vw;
+}
+select{
+	height: 3vh;
+	width: 6vw;
+}
+input{
+	height: 3vh;
+	width: 6vw;
+	padding: 2px;
+}
+#submission{
+	height: 4vh;
+	width: 6vw;
+	padding: 2px 4px;
+	background-color: lightgreen;
+	box-shadow: 1px 1px 3px darkolivegreen;
+	border: 1px solid lightseagreen;
+	text-shadow: 1px 1px 1px darkolivegreen;
+	color: seashell;
+	opacity: 0.7;
+}
+#submission:hover{
+	opacity: 1.0;
+}

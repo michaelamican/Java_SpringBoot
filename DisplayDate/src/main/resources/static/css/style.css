@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+#wrapper{
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+}
+#date{
+	font-size: 40px;
+	color: #1a7bec;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#time{
+	font-size: 40px;
+	color: #00a400;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+button{
+	width: 20vw;
+	height: 4vh;
+	border-radius: 2px;
+	background: dodgerblue;
+	box-shadow: 2px 2px 2px dimgray;
+	border: 1px solid dimgray;
+	padding: 5px 10px;
+	opacity: 0.8;
+}
+button:hover{
+	opacity: 1;
+	box-shadow: 2px 2px 2px slatebluegray;
+}
+
