@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ProductsCategories
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: MichaelAA
+Implementation-Vendor-Id: com.CodingDojo.ProductsCategories
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/ProductsCategories
+Created-By: Maven Integration for Eclipse
+
