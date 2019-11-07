@@ -1,0 +1,205 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	height: 100vh;
+	width: 100vh;
+	overflow-y: scroll;
+}
+h1{
+	color: #CC3F0C;
+	text-align: center;
+	margin: 1.5em;
+	font-size: 4.5em;
+}
+h2{
+	color: #CC3F0C;
+	margin: 1.5em 0;
+	font-size: 4em;
+}
+h3{
+	color: #CC3F0C;
+	font-size: 3em;
+}
+p{
+	color: #5F0F40;
+	margin: 1em;
+}
+a{
+	color: #85CB33;
+	text-decoration: none;
+}
+a:hover {
+	color: #CC3F0C;
+	text-decoration: underline;
+	transition: all 0.2s ease-in;
+}
+ul{
+	list-style: none;
+	width: 100%;
+	padding-left: 10vw;
+}
+li {
+	color: #5F0F40;
+	font-size: 1.5em;
+	display: inline-block;
+	margin-right: 1em;
+}
+button{
+	width: 6rem;
+	height: 3em;
+	background:#85CB33;
+	color: #2a430e;
+	opacity: 0.8;
+	box-shadow: 2px 2px 1px #2a430e;
+	
+}
+button:hover{
+	opacity: 1;
+}
+form{
+	background-color: #FFDD99;
+	border: 1px solid #CC3F0C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2vh 1vw;
+}
+
+th{
+	background-color: #CC3F0C;
+	color:#85CB33;
+	font-size: 3em;
+	height: 2em;
+}
+td{
+	background-color: #FFDD99;
+	color:#5F0F40;
+	text-align: center;
+	vertical-align: center;
+	box-align: center;
+	width: 12em;
+	height: 4em;
+	font-size: 2em;
+}
+td:first-child{
+	width: 20em;
+}
+tr{
+	height: 2.5em;
+}
+.submit{
+	background:#85CB33;
+	color: #5F0F40;
+	opacity: 0.8;
+	font-size: 2em;
+	vertical-align: center;
+	border: 1px solid rgba(103,173,21,0.5);
+	box-shadow: 0px 2px 3px rgba(0,60,0,0.2);
+	width: 220px;
+	height: 60px;
+}
+.submit:hover{
+	opacity: 1;
+	transition: all 0.8s ease-in;
+}
+
+#wrapper{
+	background-color: #261c2b;
+	padding: 5vh 10vw;
+	height: 92vh;
+	width: 100%;
+}
+#navbar{
+	background-color: #5F0F40;
+	padding: 1vh 0;
+	height: 8vh;
+	width: 100%;
+}
+.formbox{
+	background-color: #FFCE6D;
+	border: 1px solid #132a13;
+	padding: 1em;
+	display: inline-block;
+	width: 80vw;
+	min-width: 300px;
+}
+.box{
+	background-color: #FFCE6D;
+	padding: 4vh 4vw;
+	margin: 2vh 0;
+}
+.title{
+	text-transform:lowercase;
+}
+.inputs {
+	height: 1.9em;
+	width: 15em;
+	font-size: 1em;
+	padding:  0.2em 0.5em;
+	background-color: rgba(255, 250, 250, 0.8);
+	border: none;
+	box-shadow: 0px 2px 20px rgba(60,0,0,0.1);
+	color: #222;
+}
+.labels {
+	font-size: 1.5em;
+}
+.centered {
+	text-align: center;
+	vertical-align: center;
+	margin: 1em auto;
+}
+#topbar {
+	padding: 0 6em;
+}
+#main {
+	width: 80vw;
+}
+table {
+	border: none !important;
+	width: 100%;
+	margin: 2vh 0;
+}
+#logbar {
+	background-color: #5F0F40;
+	padding: 0.2em;
+	width: 100vw;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #eee;
+	font-size: 1.5em;
+}
+.loginputs{
+	height: 1.5em;
+	width: 8em;
+	font-size: 1em;
+	padding:  0.2em 0.5em;
+	background-color: rgba(255, 250, 250, 0.9);
+	border: none;
+	box-shadow: 0px 2px 20px rgba(60,0,0,0.1);
+	color: #222;
+	margin: 0 1vw;
+}
+.logsubmit{
+	background: #85CB33;
+    color: #5F0F40;
+    opacity: 0.8;
+    font-size: 1em;
+    vertical-align: center;
+    border: 1px solid rgba(103,173,21,0.5);
+    box-shadow: 0px 2px 3px rgba(0,60,0,0.2);
+    width: 4em;
+    height: 1.9em; 
+}
+.errors {
+	display: block;
+	color: gray;
+	font-size: 20px;
+	margin: 10px 20px;
+}
