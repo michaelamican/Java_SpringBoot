@@ -6,27 +6,34 @@
 }
 body {
 	height: 100vh;
-	width: 100vh;
-	overflow-y: scroll;
+	width: 100vw;
 }
 h1{
 	color: #CC3F0C;
 	text-align: center;
-	margin: 1.5em;
+	margin-bottom: 5vh;
 	font-size: 4.5em;
 }
 h2{
 	color: #CC3F0C;
-	margin: 1.5em 0;
+	margin: 1vh 0;
 	font-size: 4em;
 }
 h3{
 	color: #CC3F0C;
 	font-size: 3em;
 }
+h4{
+	color: #5F0F40;
+}
 p{
 	color: #5F0F40;
 	margin: 1em;
+}
+hr{
+	margin: 3vh auto !important;
+	width: 80% !important;
+	
 }
 a{
 	color: #85CB33;
@@ -66,7 +73,7 @@ form{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 2vh 1vw;
+	padding: 3vh 1vw;
 }
 
 th{
@@ -74,13 +81,15 @@ th{
 	color:#85CB33;
 	font-size: 3em;
 	height: 2em;
+	padding: 1vh 2vw;
+	text-align: center;
 }
 td{
 	background-color: #FFDD99;
 	color:#5F0F40;
-	text-align: center;
-	vertical-align: center;
+	padding: 2vh 2vw;
 	box-align: center;
+	text-align: center;
 	width: 12em;
 	height: 4em;
 	font-size: 2em;
@@ -110,13 +119,13 @@ tr{
 #wrapper{
 	background-color: #261c2b;
 	padding: 5vh 10vw;
-	height: 92vh;
+	height: 100%;
 	width: 100%;
+	overflow-y: scroll;
 }
 #navbar{
 	background-color: #5F0F40;
 	padding: 1vh 0;
-	height: 8vh;
 	width: 100%;
 }
 .formbox{
@@ -126,6 +135,8 @@ tr{
 	display: inline-block;
 	width: 80vw;
 	min-width: 300px;
+	max-height: 75vh;
+	overflow-y: scroll;
 }
 .box{
 	background-color: #FFCE6D;
@@ -149,9 +160,9 @@ tr{
 	font-size: 1.5em;
 }
 .centered {
-	text-align: center;
-	vertical-align: center;
-	margin: 1em auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 #topbar {
 	padding: 0 6em;
@@ -166,7 +177,6 @@ table {
 }
 #logbar {
 	background-color: #5F0F40;
-	padding: 0.2em;
 	width: 100vw;
 	border: none;
 	display: flex;
